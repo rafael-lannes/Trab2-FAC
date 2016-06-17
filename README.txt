@@ -2,7 +2,7 @@
 Trabalho 02 de FAC 2016.1 UFF
 Lista do que falta.
 Funçao para ver o sinal e retornar o bit resultante(feito)
-Funçao de casos especiais falta limitar a entrada para valores nao normalizados.
+Funçao de casos especiais falta limitar a entrada apenas para valores normalizar.
 Falta fazer uma funçao que calcule o expoente quando o mesmo for negativo
 Fazer o programa principal (no final )
 
