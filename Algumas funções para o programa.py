@@ -12,6 +12,12 @@ def virgula(entrada): #Função move a virgula para a primeira casa e retorna a 
     r=r[0]+','+r[1:]
     return r
 
+def verifica_sinal(entrada):
+    if entrada[0]=='-':
+        return 1;
+    else:
+        return 0;
+
 def casos_especiais(entrada): #Imprime no formato IEEE754 e Retorna True se for um caso especial.
     if entrada=='0' or entrada=='+0':
         print('SINAL: 0 EXPOENTE: 00000000 MANTISSA: 00000000000000000000000')
