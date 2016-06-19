@@ -20,7 +20,6 @@ def dez_para_binario(numero):#Função para converter decimal para binario (só 
     binario = inverter_vetor(inverso)
     return binario
     
-    
 def casos_especiais(entrada): #Imprime no formato IEEE754 e Retorna True se for um caso especial.
     if entrada=='0' or entrada=='+0':
         print('SINAL: 0 EXPOENTE: 00000000 MANTISSA: 00000000000000000000000')
@@ -79,6 +78,7 @@ def expoente(entrada):  #Função calcula o expoente e pode retornar tanto o num
         #print(decimal)
         #print(dez_para_binario(int(decimal)))
         return(dez_para_binario(int(decimal)))
+        
 def mantissa(entrada):#Função que retorna a Mantissa no formato Precisão simples (23 bits)
     manti_final=23*['0'] #Mantissa Final
     separado=entrada.split(',')
