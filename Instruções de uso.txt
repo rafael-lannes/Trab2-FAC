@@ -1,0 +1,23 @@
+Trabalho 02 Fundamentos de Arquitetura de Computadores.
+Grupo 4:
+Daniel Chactoura Araujo
+Alessandra Siciliano Orlando
+Patricia Martins Rocca Crestani
+Nicolas Nascimento Atmatzides
+Rafael de Farias Lannes
+
+Instruções de execução:
+Representação em ponto flutuante em Python:
+Para executar o programa é necessário o interpretador Python versão 3.5.1 que pode ser obtido no site oficial https://www.python.org/ .
+Após a instalação , abra o arquivo "Trabalho 02 FAC.py" com o interpretador.
+Também é possível abrir o programa dentro do IDLE (Editor padrão do python.)
+Abra o IDLE > pressione ctrl+o ou vá em file>open e escolha o arquivo "Trabalho 02 FAC.py" , após isso pressione F5 para executar o programa.
+
+Instruções do programa:
+O programa pedirá como entrada um número binário separado por vírgula e o mesmo retornará os bits representados no padrão IEEE 754.
+Para números negativos , é necessário colocar o sinal - antes do número binário com vírgula.
+Para os Casos especiais + Infinito e - Infinito por favor insira-os (+inf e -inf).
+Exemplo de entrada:
+Número: 10001,001
+Saída
+SINAL: 0 EXPOENTE:10000011 MANTISSA:00010010000000000000000
